@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="Browser" value="Chrome"/>
+  <test thread-count="5" name="ChromeBestbuyTest(failed)" verbose="0">
+    <classes>
+      <class name="testcomponents.BrandShopTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="testShopByBrand"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- testcomponents.BrandShopTest -->
+      <class name="testcomponents.CheckOutTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="testCheckOut"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- testcomponents.CheckOutTest -->
+    </classes>
+  </test> <!-- ChromeBestbuyTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
